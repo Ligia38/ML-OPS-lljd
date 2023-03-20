@@ -37,7 +37,7 @@ async def get_max_duration(year, platform, duration_type):
 #---------------------------------------------------------------------------------#
 # get_score_count function:
 @app.get('/get_score_count/{platform}/{scored}/{year}')
-def get_score_count(platform, scored, year):
+async def get_score_count(platform, scored, year):
     df_f1 = data[data['id'].str[0] == platform[0].lower()]
     df_f2 = df_f1[df_f1['score'] > float(scored)]
     df_f3 = df_f2[df_f2['release_year'] == int(year)]
@@ -47,11 +47,16 @@ def get_score_count(platform, scored, year):
 #---------------------------------------------------------------------------------#
 # get_count_platform function:
 @app.get('/get_count_platform/{platform}')
-def get_count_platform(platform):
+async def get_count_platform(platform):
     df_f1 = data[data['id'].str[0] == platform[0].lower()]
     df_f2 = df_f1[df_f1['type'] == 'movie']
 
     return len(df_f2)
+#---------------------------------------------------------------------------------#
+# get_actor function:
+@app.get('/get_actor/{platform}/{year}')
+async def get_actor(platform):
+    return 'string'
 #---------------------------------------------------------------------------------#
 # Documentation used for queries
 '''
