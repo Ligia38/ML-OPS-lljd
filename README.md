@@ -32,4 +32,8 @@ Link opcional: https://api-ml-ops-lljd.onrender.com/docs </br>
 </p>
 
 
-<h2 align=center> SEGUNDA PARTE: API </h2>
+<h2 align=center> PRÓXIMAS MEJORAS </h2>
+- Explicación del modelo SVD.
+- Evaluación del modelo de recomendación.
+- Optimización de hiperámetros.
+- Creación de una SPA (Single Page Aplication) del proyecto utilizando React. 
