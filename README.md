@@ -1,4 +1,4 @@
-<h1 align=center> PROYECTO I: Ingeniería de Datos y ML</h1>
+<h1 align=center> PROYECTO I: Ingeniería de Datos y Machine Learning (ML-OPS)</h1>
 
 Este proyecto se divide en cuatro etapas, las cuales se muestran en el siguiente diagrama:
 <p align="center">
