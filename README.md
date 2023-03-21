@@ -5,7 +5,10 @@ Este proyecto se divide en cuatro etapas, las cuales se muestran en el siguiente
 <img src="src/etapas.png"  height=300>
 </p>
 
-<h2 align=center> ETL </h2>
+<h2 align=center> PRIMERA PARTE: ETL </h2>
+<p align="center">
+<img src="src/ETL_logo.png"  height=100>
+</p>
 Se realizaron las siguienter transformaciones a los datos extraidos de .csv proveniente de la carpeta `data`: </br>
 1. Se generó el campo id: Cada ide está conformado por la primera letra de la plataforma seguido del show_id ya presente anteriormente en los datasets. </br> 
 2. Los valores nulos del campo 'rating' fueron sustituidos por la cadena "G" (Correspondiente al maturity rating: "General for all audiences"). </br>
